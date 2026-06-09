@@ -5,157 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Angelo Martinez Portfolio</title>
     <style>
-        /* Base Reset & Cyberpunk Theme Colors */
-        * {
+        /* Base page styling to center the portfolio */
+        body {
+            background-color: #0d1117; /* Matches the background of the image */
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: #0d1117; /* GitHub Dark Mode Background */
-            color: #c9d1d9;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            padding: 20px;
+            height: 100vh;
+            overflow: hidden; /* Keeps the portfolio locked to the screen */
         }
 
-        /* Portfolio Container */
+        /* Container for the portfolio image and the clickable links */
         .portfolio-container {
-            background-color: #161b22;
-            border: 1px solid #30363d;
-            border-radius: 12px;
-            width: 100%;
-            max-width: 650px;
-            padding: 40px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+            position: relative;
+            /* Use image aspect ratio for responsive scaling (width:height) */
+            aspect-ratio: 16 / 9; 
+            width: 90vw; /* 90% of viewport width */
+            max-width: 1280px; /* Optional maximum width */
+            background-image: url('portfolio_render.png'); /* <<< NAME YOUR IMAGE HERE */
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.8); /* Optional drop shadow */
+            border-radius: 20px; /* Matching the container border */
         }
 
-        /* Header Styles */
-        header {
-            text-align: center;
-            margin-bottom: 35px;
-            border-bottom: 2px solid #21262d;
-            padding-bottom: 20px;
-        }
-
-        h1 {
-            color: #58a6ff; /* Neon Cyber Blue */
-            font-size: 2rem;
-            margin-bottom: 8px;
-            letter-spacing: 0.5px;
-        }
-
-        .subtitle {
-            color: #8b949e;
-            font-size: 1rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Project Section & List */
-        .projects-section {
-            margin-top: 20px;
-        }
-
-        h2 {
-            color: #ff7b72; /* Accent color for section titles */
-            font-size: 1.25rem;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .project-list {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        /* Project Links / Cards */
-        .project-item a {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            background-color: #21262d;
-            border: 1px solid #30363d;
-            padding: 18px 24px;
-            border-radius: 8px;
-            color: #f0f6fc;
+        /* Base styling for all links */
+        .project-link {
+            position: absolute;
+            display: block;
             text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.25s ease-in-out;
+            color: transparent; /* Makes text invisible but detectable by screen readers */
+            background-color: transparent;
+            cursor: pointer;
+            border-radius: 8px; /* Optional for subtle click interaction */
         }
 
-        /* Hover Effects */
-        .project-item a:hover {
-            background-color: #282e38;
-            border-color: #58a6ff;
-            transform: translateX(5px);
-            box-shadow: 0 0 12px rgba(88, 166, 255, 0.2);
+        /* Invisible Links Placement (Percentages used for responsiveness)
+           Top left coordinates (top/left) and dimensions (width/height)
+           Coordinates were measured to cover 'View Project Details'
+        */
+
+        /* Row 1 */
+        .link-internal {
+            top: 36%;  left: 41.5%;
+            width: 14%; height: 9.5%;
         }
 
-        /* Folder Icon Placeholder */
-        .project-item a::before {
-            content: "📁";
-            margin-right: 12px;
-            font-size: 1.2rem;
+        .link-web {
+            top: 36%;  left: 77%;
+            width: 14%; height: 9.5%;
         }
 
-        /* Arrow Indicator on the right */
-        .project-item a::after {
-            content: "→";
-            color: #58a6ff;
-            font-size: 1.2rem;
-            transition: transform 0.2s ease;
+        /* Row 2 */
+        .link-wifi {
+            top: 55%;  left: 41.5%;
+            width: 14%; height: 9.5%;
         }
 
-        .project-item a:hover::after {
-            transform: translateX(3px);
+        .link-social {
+            top: 55%;  left: 77%;
+            width: 14%; height: 9.5%;
         }
 
-        /* Footer styling */
-        footer {
-            text-align: center;
-            margin-top: 35px;
-            color: #484f58;
-            font-size: 0.85rem;
+        /* Row 3 */
+        .link-ad {
+            top: 74%;  left: 41.5%;
+            width: 14%; height: 9.5%;
         }
+
+        .link-cloud {
+            top: 74%;  left: 77%;
+            width: 14%; height: 9.5%;
+        }
+
+        /* Simple Hover Interaction (Optional) */
+        .project-link:hover {
+            background-color: rgba(255, 255, 255, 0.05); /* Very subtle glow effect */
+        }
+
     </style>
 </head>
 <body>
 
     <div class="portfolio-container">
-        <header>
-            <h1>Angelo Gabriel A. Martinez</h1>
-            <div class="subtitle">Penetration Testing Portfolio</div>
-        </header>
-
-        <main class="projects-section">
-            <h2>Active Cyber Security Projects</h2>
-            <ul class="project-list">
-                <li class="project-item">
-                    <a href="./project-1/">Project 1</a>
-                </li>
-                <li class="project-item">
-                    <a href="./project-2/">Project 2</a>
-                </li>
-                <li class="project-item">
-                    <a href="./project-3/">Project 3</a>
-                </li>
-            </ul>
-        </main>
-
-        <footer>
-            In Progress &bull; Learn Ethical Hacking From Scratch
-        </footer>
+        <a href="#internal-network" class="project-link link-internal">Internal Network Details</a>
+        <a href="#web-app" class="project-link link-web">Web App Details</a>
+        
+        <a href="#wifi-audit" class="project-link link-wifi">Wi-Fi Audit Details</a>
+        <a href="#social-eng" class="project-link link-social">Social Engineering Details</a>
+        
+        <a href="#ad-vuln" class="project-link link-ad">Active Directory Details</a>
+        <a href="#cloud-infra" class="project-link link-cloud">Cloud Infrastructure Details</a>
     </div>
 
 </body>
