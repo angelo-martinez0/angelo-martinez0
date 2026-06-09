@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: #0d1117; color: #c9d1d9; padding: 40px 20px; display: flex; justify-content: center; }
+        .container { width: 100%; max-width: 900px; background-color: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 40px; box-shadow: 0 8px 24px rgba(0,0,0,0.5); }
+        .back-link { display: inline-block; color: #58a6ff; text-decoration: none; margin-bottom: 25px; font-weight: 500; }
+        h1 { color: #58a6ff; font-size: 2rem; margin-bottom: 20px; border-bottom: 2px solid #21262d; padding-bottom: 15px; }
+        h2 { color: #ff7b72; font-size: 1.3rem; margin-top: 30px; margin-bottom: 15px; display: flex; align-items: center; gap: 8px; }
+        
+        /* Document Files List */
+        .file-list { list-style: none; display: flex; flex-direction: column; gap: 10px; background: #21262d; padding: 15px; border-radius: 8px; border: 1px solid #30363d; }
+        .file-item a { color: #58a6ff; text-decoration: none; font-weight: 500; }
+        .file-item a:hover { text-decoration: underline; }
+
+        /* Scripts Grid Layout */
+        .script-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; }
+        .script-card { background: #21262d; border: 1px solid #30363d; padding: 15px; border-radius: 8px; display: flex; flex-direction: column; justify-content: space-between; }
+        .script-name { color: #7ee787; font-family: monospace; font-weight: bold; margin-bottom: 10px; }
+        .script-btn { display: inline-block; text-align: center; background: #238636; color: white; text-decoration: none; padding: 6px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; }
+        .script-btn:hover { background: #2ea043; }
+
+        /* Screenshots Interactive Gallery */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+        .gallery-item { background: #21262d; border: 1px solid #30363d; border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; }
+        .gallery-item img { width: 100%; height: 180px; object-fit: cover; border-bottom: 1px solid #30363d; transition: transform 0.2s; }
+        .gallery-item img:hover { transform: scale(1.02); }
+        .img-caption { padding: 10px; font-size: 0.85rem; color: #8b949e; text-align: center; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; }
+
+        .loading-text { font-style: italic; color: #8b949e; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <a href="../" class="back-link">← Back to Main Portfolio</a>
+        <h1 id="repo-title">Project 1 Workspace</h1>
+
+        <!-- Part 1: Documentation Files -->
+        <h2>📝 Core Lab Documentation</h2>
+        <ul class="file-list">
+            <li class="file-item">📄 <a href="./README.md">README.md (Project Overview)</a></li>
+            <li class="file-item">📄 <a href="./kali-linux-lab.md">kali-linux-lab.md (Technical Notes)</a></li>
+        </ul>
+
+        <!-- Part 2: Automation/Hacking Scripts Folder -->
+        <h2>💻 Custom Scripts & Exploits (`/scripts`)</h2>
+        <div id="scripts-container" class="script-grid">
+            <p class="loading-text">Scanning scripts folder...</p>
+        </div>
+
+        <!-- Part 3: Screenshots Folder Evidence -->
+        <h2>📸 Captured Evidence Gallery (`/screenshots`)</h2>
+        <div id="gallery-container" class="gallery">
+            <p class="loading-text">Loading evidence images...</p>
+        </div>
+    </div>
+
+    <script>
+        // Configuration variables to automatically talk to GitHub API
+        const username = "angelo-martinez0";
+        const repo = "angelo-martinez0"; 
+        const projectFolder = "project-1"; // Change this to project-2 or project-3 for your other folders
+
+        // Fetch and show items inside the /scripts folder
+        async function loadScripts() {
+            const container = document.getElementById('scripts-container');
+            try {
+                const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${projectFolder}/scripts`);
+                if (!response.ok) throw new Error();
+                const files = await response.json();
+                
+                container.innerHTML = ""; // Clear loader
+                files.forEach(file => {
+                    if (file.type === "file") {
+                        container.innerHTML += `
+                            <div class="script-card">
+                                <div class="script-name">⚙️ ${file.name}</div>
+                                <a href="${file.html_url}" target="_blank" class="script-btn">View Source</a>
+                            </div>`;
+                    }
+                });
+            } catch (err) {
+                container.innerHTML = `<p class="loading-text" style="color: #ff7b72;">No scripts found or folder is empty.</p>`;
+            }
+        }
+
+        // Fetch and show images inside the /screenshots folder
+        async function loadScreenshots() {
+            const container = document.getElementById('gallery-container');
+            try {
+                const response = await fetch(`https://api.github.com/repos/${username}/${repo}/contents/${projectFolder}/screenshots`);
+                if (!response.ok) throw new Error();
+                const files = await response.json();
+                
+                container.innerHTML = ""; // Clear loader
+                files.forEach(file => {
+                    // Check if file is an image format
+                    if (file.type === "file" && /\.(jpg|jpeg|png|gif|webp)$/i.test(file.name)) {
+                        container.innerHTML += `
+                            <div class="gallery-item">
+                                <a href="${file.download_url}" target="_blank">
+                                    <img src="${file.download_url}" alt="${file.name}">
+                                </a>
+                                <div class="img-caption">${file.name}</div>
+                            </div>`;
+                    }
+                });
+            } catch (err) {
+                container.innerHTML = `<p class="loading-text" style="color: #ff7b72;">No image evidence found or folder is empty.</p>`;
+            }
+        }
+
+        // Initialize API calls on page load
+        loadScripts();
+        loadScreenshots();
+    </script>
+</body>
+</html>
