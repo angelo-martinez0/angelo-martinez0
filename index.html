@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angelo Martinez | Penetration Testing Portfolio</title>
+    <title>Project 1 | Penetration Testing Lab</title>
     <style>
-        /* Base Reset & Cyberpunk Theme Colors */
         * {
             margin: 0;
             padding: 0;
@@ -14,148 +13,112 @@
         }
 
         body {
-            background-color: #0d1117; /* GitHub Dark Mode Background */
+            background-color: #0d1117;
             color: #c9d1d9;
+            padding: 40px 20px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
         }
 
-        /* Portfolio Container */
-        .portfolio-container {
+        .container {
+            width: 100%;
+            max-width: 800px;
             background-color: #161b22;
             border: 1px solid #30363d;
             border-radius: 12px;
-            width: 100%;
-            max-width: 650px;
             padding: 40px;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
         }
 
-        /* Header Styles */
-        header {
-            text-align: center;
-            margin-bottom: 35px;
-            border-bottom: 2px solid #21262d;
-            padding-bottom: 20px;
+        .back-link {
+            display: inline-block;
+            color: #58a6ff;
+            text-decoration: none;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
         }
 
         h1 {
-            color: #58a6ff; /* Neon Cyber Blue */
-            font-size: 2rem;
-            margin-bottom: 8px;
-            letter-spacing: 0.5px;
-        }
-
-        .subtitle {
-            color: #8b949e;
-            font-size: 1rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-
-        /* Project Section & List */
-        .projects-section {
-            margin-top: 20px;
+            color: #58a6ff;
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 15px;
         }
 
         h2 {
-            color: #ff7b72; /* Accent color for section titles */
-            font-size: 1.25rem;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+            color: #ff7b72;
+            font-size: 1.4rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
         }
 
-        .project-list {
-            list-style: none;
-            display: flex;
-            flex-direction: column;
-            gap: 16px;
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+            color: #8b949e;
         }
 
-        /* Project Links / Cards */
-        .project-item a {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+        .doc-box {
             background-color: #21262d;
             border: 1px solid #30363d;
-            padding: 18px 24px;
             border-radius: 8px;
-            color: #f0f6fc;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.1rem;
-            transition: all 0.25s ease-in-out;
+            padding: 20px;
+            margin-top: 15px;
         }
 
-        /* Hover Effects */
-        .project-item a:hover {
-            background-color: #282e38;
-            border-color: #58a6ff;
-            transform: translateX(5px);
-            box-shadow: 0 0 12px rgba(88, 166, 255, 0.2);
-        }
-
-        /* Folder Icon Placeholder */
-        .project-item a::before {
-            content: "📁";
-            margin-right: 12px;
-            font-size: 1.2rem;
-        }
-
-        /* Arrow Indicator on the right */
-        .project-item a::after {
-            content: "→";
+        .file-link {
+            display: block;
             color: #58a6ff;
-            font-size: 1.2rem;
-            transition: transform 0.2s ease;
+            font-weight: 600;
+            text-decoration: none;
+            margin-bottom: 8px;
         }
 
-        .project-item a:hover::after {
-            transform: translateX(3px);
+        .file-link:hover {
+            text-decoration: underline;
         }
 
-        /* Footer styling */
-        footer {
-            text-align: center;
-            margin-top: 35px;
-            color: #484f58;
-            font-size: 0.85rem;
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 6px;
+            border: 1px solid #30363d;
         }
     </style>
 </head>
 <body>
 
-    <div class="portfolio-container">
-        <header>
-            <h1>Angelo Gabriel A. Martinez</h1>
-            <div class="subtitle">Penetration Testing Portfolio</div>
-        </header>
+    <div class="container">
+        <a href="../" class="back-link">← Back to Main Portfolio</a>
+        
+        <h1>Project 1: Kali Linux Penetration Testing</h1>
+        
+        <h2>Lab Documentation & Notes</h2>
+        <p>Below are the raw markdown documentation files detailing the step-by-step actions taken during this assessment:</p>
+        
+        <div class="doc-box">
+            <!-- These open your notes files directly in GitHub's clean text reader -->
+            <a href="./README.md" class="file-link">📄 View Project Overview (README.md)</a>
+            <a href="./kali-linux-lab.md" class="file-link">📄 View Penetration Testing Lab Notes (kali-linux-lab.md)</a>
+        </div>
 
-        <main class="projects-section">
-            <h2>Active Cyber Security Projects</h2>
-            <ul class="project-list">
-                <li class="project-item">
-                    <a href="./project-1/">Project 1</a>
-                </li>
-                <li class="project-item">
-                    <a href="./project-2/">Project 2</a>
-                </li>
-                <li class="project-item">
-                    <a href="./project-3/">Project 3</a>
-                </li>
-            </ul>
-        </main>
-
-        <footer>
-            In Progress &bull; Learn Ethical Hacking From Scratch
-        </footer>
+        <h2>Screenshots & Evidence</h2>
+        <p>Visual verification of successful tool execution and lab milestones:</p>
+        <div class="gallery">
+            <!-- Add your screenshot paths here later as you upload them -->
+            <p style="font-style: italic; font-size: 0.9rem;">(Check the /screenshots folder in the repository to view uploaded images)</p>
+        </div>
     </div>
 
 </body>
