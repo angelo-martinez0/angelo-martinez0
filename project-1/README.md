@@ -1,11 +1,14 @@
 ## Reactor
 
+This CTF lab activity is from the seasonal of HackTheBox
+
+Performed nmap scanning on the target IP Address to gather information and plan the attack
+![perform nmap scan to know the open port, version, and vulnerabilities](screenshots/recon.png)
+
 <!--
 **angelo-martinez0/angelo-martinez0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
-![perform nmap scan to know the open port, version, and vulnerabilities](screenshots/recon.png)
 
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
