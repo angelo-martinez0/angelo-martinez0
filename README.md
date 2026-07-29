@@ -12,7 +12,7 @@
 
 ---
 <!-- Current Studies -->
-### Currently learning 
+### Currently Learning 
 - `🪲Bug Bounty Hunting`
 - `⚔️Offensive Cyber Security / Penetration Testing`
 
