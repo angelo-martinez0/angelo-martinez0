@@ -1,8 +1,12 @@
-## Hi there 👋
+# Angelo Martinez
 
-Please Read Writeups
+## CTF Writeups
+* [WebVerse Pro - Corridor Writeup](./Writeups/WebVerse%20Pro/Corridor.md)
 
-- 🌱 I’m currently learning Bug Bounty
+### Currently learning 
+- `🪲Bug Bounty Hunting`
+- ` ⚔️Penetration Testing / Offensive Cyber Security`
+
 
 <!--
 **angelo-martinez0/angelo-martinez0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
