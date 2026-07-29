@@ -1,6 +1,7 @@
 # Angelo Martinez
 
-## CTF Writeups
+
+<h2 style="border-top: 2px solid #0751a5; border-bottom: none; padding-bottom: 0;">CTF Writeups</h2>
 
 ### WebVerse Pro
  - [Corridor](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Corridor.md)
