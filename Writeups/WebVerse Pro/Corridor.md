@@ -19,7 +19,7 @@
  ![alt text](/Writeups/images/image2.png)
 
 ---
-#### Now a good practice is checking if there's a `notes.txt`
+#### Now a good practice is checking if there's a `notes.html`
 
 We can see the author `Mike` mention about `flag.txt` from his `home directory`. Now we know who and what the target is `Mike's Home directory`
 
