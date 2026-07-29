@@ -3,7 +3,18 @@
 
 ### Currently learning 
 - `🪲Bug Bounty Hunting`
-- `⚔️Penetration Testing / Offensive Cyber Security`
+- `⚔️Offensive Cyber Security`
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--
