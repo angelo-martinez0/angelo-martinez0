@@ -1,6 +1,9 @@
 # Angelo Martinez
 
+<!-- This category is for Projects -->
 
+
+<!-- This category is for CTFs Writeups -->
 <h2 style="border-top: 2px solid #0751a5; padding-top: 10px; border-bottom: none; padding-bottom: 0;">CTF Writeups</h2>
 
 ### WebVerse Pro
@@ -8,7 +11,7 @@
 
 
 ---
-
+<!-- Current Studies -->
 ### Currently learning 
 - `🪲Bug Bounty Hunting`
 - `⚔️Offensive Cyber Security / Penetration Testing`
