@@ -1,7 +1,7 @@
 # Angelo Martinez
 
 ## CTF Writeups
-* [WebVerse Pro - Corridor Writeup](./Writeups/WebVerse%20Pro/Corridor.md)
+* [WebVerse Pro - Corridor Writeup](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Corridor.md)
 
 ### Currently learning 
 - `🪲Bug Bounty Hunting`
