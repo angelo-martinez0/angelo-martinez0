@@ -1,6 +1,9 @@
 ## Hi there 👋
 
 Please Read Writeups
+
+- 🌱 I’m currently learning Bug Bounty
+
 <!--
 **angelo-martinez0/angelo-martinez0** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
