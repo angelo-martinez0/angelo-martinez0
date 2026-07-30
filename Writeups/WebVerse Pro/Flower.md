@@ -16,8 +16,9 @@ First thing is we check the `url`, `request`, and `response` of all the category
 
 ![alt text](/Writeups/images/image6.png)
 
-Nothing is interesting as of the moment, so creating an account is the remaining option.
+An interesting part is the `Home` page, as it contains a `title` `description` `price`. This is one of the common part to do an SQL injection so we could see the content of the database.
 
+![alt text](/Writeups/images/image7.png)
 ### Enumeration
 
 
