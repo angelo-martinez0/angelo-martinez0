@@ -30,7 +30,7 @@ Having a response 200 is good, but we also need to see if it shows the context.
 ---
 
 ### Enumeration
-In this part where a lot's or trial and error are needed using `Burpsuite or Caido` are much convenient as we can just insert the `payloads` we wanted to use, in this case I'll be using `Caido`
+In this part where a lots or trial and error are needed using `Burpsuite or Caido` are much convenient as we can just insert the `payloads` we wanted to use, in this case I'll be using `Caido`
 
 - Intercept
 ![alt text](/Writeups/images/image8.png)
