@@ -121,4 +121,5 @@ We can now see a table name secrets.
 ```
 
 ### `Now we got the flag`
+
 ![alt text](/Writeups/images/image-12.png)
