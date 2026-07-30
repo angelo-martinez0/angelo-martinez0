@@ -15,6 +15,9 @@
 
 - [Flower](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Flower.md)
 
+- [Display Case](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Display%20Case.md)
+
+
 ---
 <!-- Current Studies -->
 ### Currently Learning 

@@ -22,7 +22,7 @@ In Upload it says files land at `/uploads/`; so what will happen if we traverse 
 ![alt text](/Writeups/images/images-2.png)
 
 
-#### Now we can the files that has been uploaded.
+#### Now we can see the files that has been uploaded.
 
 ![alt text](/Writeups/images/images-3.png)
 
