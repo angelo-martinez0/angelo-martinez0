@@ -1,7 +1,8 @@
 # Angelo Martinez
-```
-I'm an Aspiring Offensive Cyber Security, in here is the compiled Projects and Writeups I made for documentation. Please see below...
-```
+
+> I'm an Aspiring Offensive Cyber Security, in here is the compiled Projects and Writeups I made for documentation. Please see below...
+
+
 <!-- This category is for Projects -->
 
 
