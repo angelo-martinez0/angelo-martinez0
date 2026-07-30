@@ -1,4 +1,8 @@
 # Display Case
+
+### Lab Link
+[WebVerse - Display Case](https://dashboard.webverselabs-pro.com/academy/mapping-the-attack-surface/practice/challenge/display-case?back=%2Facademy%2Fmapping-the-attack-surface%2Fread%3Fsection%3Dpassive-mapping)
+
 > Display Case is the file-sharing tool a four-person agency uses to swap rough cuts and project archives with their clients. They moved off Dropbox to "control the surface". The site lists exactly the files the team intended to publish, the folder underneath them does not. Start at the landing page, look around the uploads area, and see what a stray legacy panel will hand you if you ask.
 
 ---
