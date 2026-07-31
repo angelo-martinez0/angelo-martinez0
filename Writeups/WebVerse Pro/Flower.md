@@ -82,7 +82,7 @@ Response shows that webpage shows the content of the table, that identifies that
 
 To know which exact column arrangement 
 
-```Bash
+```bash
 ' union select 1,2,3,4-- -
 ```
 
