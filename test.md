@@ -1,5 +1,5 @@
 ## test
 
-```Bash
+``` Bash
 curl test
 ```
