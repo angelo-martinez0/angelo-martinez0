@@ -17,6 +17,7 @@
 
 - [Display Case](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Display%20Case.md)
 
+- [Nolic](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro/Nolic.md)
 
 ---
 <!-- Current Studies -->
