@@ -32,9 +32,8 @@ Which should be put in the email and password.
 {"$ne: null}
 ```
 
-> $ne: Stands for "not equal"
-
-> null: Represents a null or empty value.
+> $ne: Stands for "not equal"  
+null: Represents a null or empty value 
 
 ![alt text](/Writeups/images/Smoothieimage-1.png)
 
