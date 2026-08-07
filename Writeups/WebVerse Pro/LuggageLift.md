@@ -17,7 +17,7 @@ First thing we verify what type of SQL is this
 
 ![alt text](/Writeups/images/LuggageLiftimage-1.png)
 
-As we can see `1=1 is true` it shows a response, `1=2 is false`
+As we can see `1=1 is true` it shows a response, `1=2 is false` no response. But even the true does not show any column or row which identifies as `Blind SQL`
 
 ![alt text](/Writeups/images/LuggageLiftimage-3.png)
 
