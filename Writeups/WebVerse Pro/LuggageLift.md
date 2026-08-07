@@ -6,8 +6,8 @@
 ---
 
 ### Skills & Knowledge
-- Blind Based SQL (Boolean)
-- Caido Automate & Payload(Matrix)
+- Blind Based SQL Injection (Boolean)
+- Caido Automate & Matrix (Payload)
 
 ---
 
