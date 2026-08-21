@@ -5,7 +5,7 @@
 
 ---
 
-### Skill & Knowledge
+### Skills & Knowledge
 - ffuf
 - Sub-domain & Path Enumeration
 - LDAP Injection
