@@ -1,7 +1,7 @@
 # Frost Byte
 
 ### Lab Link
-[WebVerse - Semaphore](https://dashboard.webverselabs-pro.com/academy/ldap-injection/practice/challenge/semaphore?back=%2Facademy%2Fldap-injection%3Ftab%3Doverview)
+[WebVerse - FrostByte](https://dashboard.webverselabs-pro.com/labs/frostbyte)
 
 ---
 
