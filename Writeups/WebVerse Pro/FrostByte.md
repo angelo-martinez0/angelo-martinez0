@@ -7,8 +7,9 @@
 
 ### Skill & Knowledge
 - ffuf
-- Path Enumeration
-- LDAP 
+- Sub-domain & Path Enumeration
+- LDAP Injection
+- Second Based SQL Injection
 
 ---
 
