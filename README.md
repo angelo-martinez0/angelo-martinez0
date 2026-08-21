@@ -1,4 +1,8 @@
 # Angelo Martinez
+<p>
+  <a href="https://github.com/angelo-martinez0"><img src="https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/angelo-gabriel-martinez-ba0a1627b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+</p>
 
 > Cybersecurity Professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Bug Bounty Hunting & Penetration Testing.` This portfolio documents my journey and practical skills.
 
