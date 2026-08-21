@@ -2,7 +2,7 @@
 
 > Cybersecurity Professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Bug Bounty Hunting & Penetration Testing.` This portfolio documents my journey and practical skills.
 
-<p align="center">
+<p>
   <img src="https://img.shields.io/badge/Bug_Bounty_Hunter-B22222?style=flat&logo=owasp&logoColor=white" alt="Bug Bounty"/>
   <img src="https://img.shields.io/badge/Ethical_Hacking-1C1C1C?style=flat&logo=letsencrypt&logoColor=red" alt="Ethical Hacking"/>
   <img src="https://img.shields.io/badge/Kali_Linux-000000?style=flat&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
