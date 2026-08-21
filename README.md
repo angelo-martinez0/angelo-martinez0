@@ -1,13 +1,13 @@
 # Angelo Martinez
 
-> Cybersecurity professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Penetration Testing & Bug Bounty Hunting.` This portfolio documents my journey and practical skills.
+> Cybersecurity professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Bug Bounty Hunting & Penetration Testing.` This portfolio documents my journey and practical skills.
 
 
 <!-- This category is for Projects -->
 
 
 <!-- This category is for CTFs Writeups -->
-## [CTF Writeups](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
+### [CTF Writeups](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
 
 - ### [WebVerse Pro](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro)
 
