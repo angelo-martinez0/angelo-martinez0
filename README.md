@@ -1,6 +1,6 @@
 # Angelo Martinez
 
-> I'm a SOC Analyst and at the same time an Aspiring Offensive Cyber Security, in here is the compiled Projects and Writeups I made for documentation. Please see below...
+> Cybersecurity professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Penetration Testing & Bug Bounty Hunting.` This portfolio documents my journey and practical skills.
 
 
 <!-- This category is for Projects -->
