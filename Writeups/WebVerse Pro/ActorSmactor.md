@@ -45,7 +45,7 @@ The server treats `.svn/entries` as a single metadata file, not a directory. Whi
 `entries` only acts as a text list of filenames rather than a storage folder, you have to swap the path to point directly to the text-base directory where the actual source code file is kept.
 
 ```
-/.svn/text-base/config.php.svn-base
+/.svn/text-base/
 ```
 
 ---
