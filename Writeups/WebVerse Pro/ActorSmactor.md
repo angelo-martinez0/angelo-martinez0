@@ -6,7 +6,7 @@
 ### Skills & Knowledge
 
 - Recon
-- curl
+- Subversion Storage Architecture
 
 ---
 
@@ -32,8 +32,24 @@ Accessing /.svn/entries exposed the Subversion metadata structure, revealing tha
 
 ### Exploitation via .svn/text-base/:
 Knowing that SVN stores pristine copies of tracked files inside `.svn/text-base/`, we leveraged curl to directly download the baseline source file without needing a full repository clone:
+---
 
+During reconnaissance, discovering an exposed /.svn/entries endpoint revealed that the developer had mistakenly uploaded their local Subversion working copy metadata directly to the production web server. This file acts as an internal ledger or manifest, listing versioned source files such as config.php, index.php, and shows.php that were tracked within the repository layout.
 
+```
+/.svn/entries
+```
+
+The server treats `.svn/entries` as a single metadata file, not a directory. Which will result to 404
+
+`entries` only acts as a text list of filenames rather than a storage folder, you have to swap the path to point directly to the text-base directory where the actual source code file is kept.
+
+```
+/.svn/text-base/config.php.svn-base
+```
+
+---
+### Other Approach
 
 ```
 curl https://<target-id>.events.webverselabs-pro.com/.svn/text-base/config.php.svn-base -o config.php
