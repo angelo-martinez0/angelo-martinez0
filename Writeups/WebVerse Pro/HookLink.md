@@ -1,5 +1,7 @@
 # HookLink
-[HookLink](https://dashboard.webverselabs-pro.com/ranges/hooklink?back=%2Flearning-paths%2Fjunior-web-hacker)
+
+### Lab Link
+[WebVerse - HookLink](https://dashboard.webverselabs-pro.com/ranges/hooklink?back=%2Flearning-paths%2Fjunior-web-hacker)
 
 
 ---
