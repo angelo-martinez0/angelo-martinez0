@@ -43,6 +43,8 @@ In the Request promote Subscriptions and Role to `gold` and `admin`
 ```
 ;ls ../;#
 ```
+`Flag - Everyone, all at once`
+
 ```
 ;cat ../flag.txt;#
 ```
@@ -68,5 +70,16 @@ Change Password > Login > Profile
 
 Message tab
 `Flag - Return to sender`
+
+---
+`Flag - Crossed paths`
+
+Upon opening Maya account by checking her email in `Admin` `/users`, and reseting her password; insided her profile her exact location by longitude and latitude can be seen by Caido Response or `Inspect/Dev tool` > `Network` > `Response` in web
+
+Changing the lat and lng in /api/nearby will reveal the flag
+
+```
+/api/nearby?lat=25.795319&lng=-80.134167
+```
 
 
