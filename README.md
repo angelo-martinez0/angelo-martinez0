@@ -34,6 +34,13 @@ Building practical expertise through CTFs, VDPs, and hands-on security research.
 
 - #### [Root-Me](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Root-Me)
 
+
+https://img.shields.io/badge/WebVerse_Pro-Writeups-blue?style=for-the-badge](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
+
+https://img.shields.io/badge/Intigriti-Writeups-161A36?style=for-the-badge](LINK)
+
+https://img.shields.io/badge/Root--Me-Writeups-black?style=for-the-badge](LINK)
+
 ---
 <!-- Current Studies -->
 ### Current: 
