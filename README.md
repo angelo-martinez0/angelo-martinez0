@@ -4,11 +4,11 @@
   <a href="https://www.linkedin.com/in/angelo-gabriel-martinez-ba0a1627b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
-> Cybersecurity Professional transitioning into Offensive Security
+#### Cybersecurity Professional transitioning into Offensive Security
 
 🎯 Bug Bounty Hunting • ⚔️ Penetration Testing • 🔍 Vulnerability Research
 
-Building practical expertise through VDPs, CTFs, and hands-on security research.
+> Building practical expertise through VDPs, CTFs, and hands-on security research.
 
 
 <p>
