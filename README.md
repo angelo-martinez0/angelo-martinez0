@@ -4,7 +4,10 @@
   <a href="https://www.linkedin.com/in/angelo-gabriel-martinez-ba0a1627b/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
 </p>
 
-> Cybersecurity Professional transitioning from a strong defensive foundation `SOC Analyst` to offensive security `Bug Bounty Hunting & Penetration Testing.` This portfolio documents my journey and practical skills.
+> <span style="color:#58A6FF"><b>Cybersecurity Professional</b></span> transitioning into <span style="color:#F85149"><b>Offensive Security</b></span>.
+
+🔍 Building practical expertise in Bug Bounty Hunting, Penetration Testing, Vulnerability Disclosure Programs (VDPs), CTFs, and hands-on security research.
+
 
 <p>
   <img src="https://img.shields.io/badge/Bug_Bounty_Hunter-B22222?style=flat&logo=owasp&logoColor=white" alt="Bug Bounty"/>
