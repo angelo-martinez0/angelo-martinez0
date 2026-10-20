@@ -26,11 +26,11 @@
 <!-- This category is for CTFs Writeups -->
 ### [CTF Writeups](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
 
-- ### [WebVerse Pro](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro)
+- #### [WebVerse Pro](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro)
 
-- ### [Intigriti](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Intigriti)
+- #### [Intigriti](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Intigriti)
 
-- ### [Root-Me](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Root-Me)
+- #### [Root-Me](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Root-Me)
 
 ---
 <!-- Current Studies -->
