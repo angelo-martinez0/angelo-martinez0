@@ -8,7 +8,7 @@
 
 🎯 Bug Bounty Hunting • ⚔️ Penetration Testing • 🔍 Vulnerability Research
 
-Building practical expertise through CTFs, VDPs, and hands-on security research.
+Building practical expertise through VDPs, CTFs, and hands-on security research.
 
 
 <p>
