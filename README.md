@@ -25,6 +25,9 @@
 
 - ### [WebVerse Pro](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro)
 
+- ### [Intigriti](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Intigriti)
+
+- ### [Root-Me](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/Root-Me)
 
 ---
 <!-- Current Studies -->
