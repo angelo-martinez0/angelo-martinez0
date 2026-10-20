@@ -21,6 +21,7 @@ Building practical expertise through CTFs, VDPs, and hands-on security research.
   <img src="https://img.shields.io/badge/Red_Team_Practitioner-1A1A1A?style=flat&logo=gnometerminal&logoColor=red" alt="Red Team Practitioner"/>
 </p>
 
+---
 
 <!-- This category is for Projects -->
 
