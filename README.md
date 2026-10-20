@@ -35,7 +35,7 @@
 ---
 
 <!-- Current Studies -->
-### Current Focus: 
+### 🎯 Current Focus
 - `🪲Bug Bounty Hunting`
 - `⚔️Offensive Cyber Security / Penetration Testing`
 
