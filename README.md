@@ -35,7 +35,7 @@ Building practical expertise through CTFs, VDPs, and hands-on security research.
 ---
 
 <!-- Current Studies -->
-### Current: 
+### Current Focus: 
 - `🪲Bug Bounty Hunting`
 - `⚔️Offensive Cyber Security / Penetration Testing`
 
