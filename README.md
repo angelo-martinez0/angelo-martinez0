@@ -26,7 +26,7 @@ Building practical expertise through CTFs, VDPs, and hands-on security research.
 
 
 <!-- This category is for CTFs Writeups -->
-### [CTF Writeups](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
+### [📚 CTFs & Labs Writeups](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups)
 
 - #### [WebVerse Pro](https://github.com/angelo-martinez0/angelo-martinez0/blob/main/Writeups/WebVerse%20Pro)
 
@@ -36,7 +36,7 @@ Building practical expertise through CTFs, VDPs, and hands-on security research.
 
 ---
 <!-- Current Studies -->
-### Currently Learning 
+### Current: 
 - `🪲Bug Bounty Hunting`
 - `⚔️Offensive Cyber Security / Penetration Testing`
 
