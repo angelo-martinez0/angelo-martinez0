@@ -6,7 +6,7 @@
 
 #### Cybersecurity Professional transitioning into Offensive Security
 
-🪲 Bug Bounty Hunting • ⚔️ Penetration Testing • 🔍 Vulnerability Research
+🪲 Bug Bounty Hunting   ⚔️ Penetration Testing   🔍 Vulnerability Research
 
 > Building practical expertise through VDPs, CTFs, and hands-on security research.
 
