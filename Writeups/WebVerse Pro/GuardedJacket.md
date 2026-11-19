@@ -61,7 +61,7 @@ Several commonly trusted proxy-related headers were reviewed and tested.
 
 One of these headers was:
 
-```
+```http
 True-Client-IP
 ```
 
